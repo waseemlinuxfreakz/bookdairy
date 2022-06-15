@@ -15,7 +15,7 @@ body {
 .container {
     max-width: 768px;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 15px;
 }
 
 h6,
@@ -39,7 +39,7 @@ h1,
 
 p {
     margin: 0 0 0 0;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
 }
 
@@ -49,16 +49,16 @@ img {
 
 
 h4 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
 }
 
 .ml-30 {
-    margin-left: -30px;
+    margin-left: -15px;
 }
 
 .mr-30 {
-    margin-right: -30px;
+    margin-right: -15px;
 }
 
 .topnavigateContainer {
@@ -134,18 +134,18 @@ footer.FooterNavigation {
 }
 
 .title_underline {
-    font-size: 34px;
+    font-size: 26px;
     font-weight: bold;
     display: inline-block;
     border-bottom: 1px solid #000;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .textWhiteBox {
-    padding: 30px;
+    padding: 30px 15px;
     background: #fff;
     box-shadow: 0 0 5px #ddd;
-    border-radius: 30px;
+    border-radius: 15px;
 }
 
 .vision_content {
@@ -173,14 +173,14 @@ a.nextBtn {
 .profileBox {
     display: flex;
     background: #fff;
-    padding: 20px;
+    padding: 20px 15px;
     border-radius: 15px;
     margin-bottom: 30px;
 }
 
 img.profileImg {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
@@ -189,7 +189,7 @@ img.profileImg {
 }
 
 h3.secTitleUnder {
-    font-size: 23px;
+    font-size: 20px;
     font-weight: bold;
     display: inline-block;
     border-bottom: 1px solid #000;
