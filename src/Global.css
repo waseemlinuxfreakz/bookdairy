@@ -53,12 +53,24 @@ h4 {
     font-weight: bold;
 }
 
-.ml-30 {
+.ml-15 {
     margin-left: -15px;
 }
 
-.mr-30 {
+.mr-15 {
     margin-right: -15px;
+}
+
+.p15 {
+    padding: 15px 0 !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.boRa {
+    border-radius: 20px;
 }
 
 .topnavigateContainer {
@@ -130,15 +142,27 @@ footer.FooterNavigation {
 }
 
 .mb50 {
-    margin-bottom: 50px;
+    margin-bottom: 50px !important;
 }
 
+.mb10 {
+    margin-bottom: 10px !important;
+}
+
+.mb0 {
+    margin-bottom: 0 !important;
+}
+
+h2,
 .title_underline {
     font-size: 26px;
     font-weight: bold;
     display: inline-block;
-    border-bottom: 1px solid #000;
     margin-bottom: 20px;
+}
+
+.title_underline {
+    border-bottom: 1px solid #000;
 }
 
 .textWhiteBox {
@@ -164,6 +188,7 @@ a.nextBtn {
     border-radius: 20px;
     box-shadow: 0 7px 9px 0px #0006;
     display: inline-block;
+    border: 1px solid #494951;
 }
 
 .nex_btn {
@@ -188,12 +213,16 @@ img.profileImg {
     margin-right: 25px;
 }
 
-h3.secTitleUnder {
+h3,
+.secTitleUnder {
     font-size: 20px;
     font-weight: bold;
     display: inline-block;
-    border-bottom: 1px solid #000;
     margin-bottom: 5px;
+}
+
+.secTitleUnder {
+    border-bottom: 1px solid #000;
 }
 
 .profileCont h4 {
@@ -225,4 +254,204 @@ h3.secTitleUnder {
 .studyBottom .nextBtn {
     min-width: 240px;
     margin-bottom: 16px;
+}
+
+.introScreenConent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 66px);
+}
+
+section.introScreenContainer {
+    background-color: #000;
+    background-image: linear-gradient(to right, #020202, #323537);
+}
+
+.introScreenConent img {
+    max-width: 150px;
+    display: block;
+}
+
+.selectOpt {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #DB007E;
+    background: #DB007E;
+    color: #fff;
+    font-weight: 600;
+}
+
+.checkAggree input[type="checkbox"] {
+    display: none;
+}
+
+.checkAggree label {
+    display: flex;
+    align-items: center;
+}
+
+.checkAggree label span {
+    display: flex;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+    flex-shrink: 0;
+    margin-right: 10px;
+    border: 1px solid #494951;
+    background: transparent;
+}
+
+.checkAggree label span img {
+    filter: invert(1);
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s ease all;
+}
+
+.checkAggree input[type="checkbox"]:checked + label span img {
+    filter: invert(1);
+    opacity:1;
+    visibility: visible;
+}
+
+.checkAggree input[type="checkbox"]:checked + label span {
+    background: #494951;
+}
+
+.dateSelect input {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #DB007E;
+    background: #DB007E;
+    color: #fff;
+}
+
+.remoinCol {margin: 5px 0;display: flex;align-items: center;}
+
+.remindText {
+    background: #fff;
+    padding: 8px;
+    flex-grow: 1;
+    font-size: 18px;
+}
+
+.remoinCol span {
+    background: #DB007E;
+    color: #fff;
+    padding: 10px;
+    min-width: 80px;
+    text-align: center;
+    flex-shrink: 0;
+    margin-left: 15px;
+}
+
+.dualBtn {display: flex;flex-direction: column;align-items: center;justify-content: center;}
+
+.nextBtnSmall {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    transition: .3s ease all;
+    background: #494951;
+    padding: 13px 25px;
+    border-radius: 20px;
+    box-shadow: 0 7px 9px 0px #0006;
+    display: inline-block;
+    border: 1px solid #494951;
+}
+
+.dualBtn> a:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.dualBtn> a {
+    width: 70%;
+    text-align: center;
+}
+
+a.blackBtn {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    transition: .3s ease all;
+    background: #494951;
+    padding: 10px 45px;
+    border-radius: 10px;
+    box-shadow: 0 7px 9px 0px #0006;
+    display: inline-block;
+    border: 1px solid #494951;
+}
+
+a.blackBtn:hover, .nextBtnSmall:hover, a.nextBtn:hover {
+    background: transparent;
+    color: #494951;
+}
+
+.activityDate:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.activityDate {
+    background: #fff;
+    padding: 8px 15px;
+}
+
+a.whiteBtn {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: .3s ease all;
+    background: #DCE2F5;
+    padding: 10px 45px;
+    border-radius: 20px;
+    box-shadow: 0 7px 9px 0px #0006;
+    display: inline-block;
+    border: 1px solid #DCE2F5;
+    color: #494951;
+}
+
+.alignBtn {
+    display: flex;
+    justify-content: center;
+}
+
+.alignBtn> a {
+    margin: 0 10px;
+}
+
+a.whiteBtn:hover {
+    background: transparent;
+    color: #494951;
+}
+
+.whiteBox.boRa.selectRangeBox {
+    padding: 15px;
+    text-align: center;
+}
+
+.selectRange input {
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.activityDate.viewProgressActive {
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.view_progress {padding: 15px 0 0 0;text-align: center;}
+
+.view_progress p {
+    margin-bottom: 10px;
 }
