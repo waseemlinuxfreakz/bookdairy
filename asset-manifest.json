@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/bookdairy/static/css/main.ba551674.css",
-    "main.js": "/bookdairy/static/js/main.a73fb4e4.js",
+    "main.css": "/bookdairy/static/css/main.7c31a9d0.css",
+    "main.js": "/bookdairy/static/js/main.9534e4c8.js",
     "static/js/787.28cb0dcd.chunk.js": "/bookdairy/static/js/787.28cb0dcd.chunk.js",
     "static/media/profile.jpg": "/bookdairy/static/media/profile.0254c990604d03e10317.jpg",
+    "static/media/introScreen.png": "/bookdairy/static/media/introScreen.a6bd3118ee54a6707284.png",
     "static/media/user.png": "/bookdairy/static/media/user.557587208eb9e232f2ca.png",
     "static/media/search.png": "/bookdairy/static/media/search.31df2fd6ec41366cba48.png",
     "index.html": "/bookdairy/index.html",
-    "main.ba551674.css.map": "/bookdairy/static/css/main.ba551674.css.map",
-    "main.a73fb4e4.js.map": "/bookdairy/static/js/main.a73fb4e4.js.map",
+    "static/media/check-solid.svg": "/bookdairy/static/media/check-solid.c5fdcfa474f07e3a788ee2b855020cba.svg",
+    "main.7c31a9d0.css.map": "/bookdairy/static/css/main.7c31a9d0.css.map",
+    "main.9534e4c8.js.map": "/bookdairy/static/js/main.9534e4c8.js.map",
     "787.28cb0dcd.chunk.js.map": "/bookdairy/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba551674.css",
-    "static/js/main.a73fb4e4.js"
+    "static/css/main.7c31a9d0.css",
+    "static/js/main.9534e4c8.js"
   ]
 }
