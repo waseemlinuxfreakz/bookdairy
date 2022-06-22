@@ -12,6 +12,18 @@ import Confirmation from './components/Confirmation';
 import LogActivity from './components/LogActivity';
 import SelectPain from './components/SelectPain';
 import ViewProgress from './components/ViewProgress';
+import Participating from './components/participating';
+import AboutUser from './components/Aboutuser';
+import AloggedIn from './components/aloggedin';
+import Discussionon from './components/Discussionon';
+import DiscussiononReplay from './components/DiscussiononReplay';
+import DiscussiononReplay2 from './components/DiscussiononReplay2';
+import PostComment from './components/PostComment';
+import CommentSubmit from './components/CommentSubmit';
+import PostTopic from './components/PostTopic';
+import SuccessTopiPost from './components/SucceccTopicPost';
+import CreateProfile from './components/CreateProfile';
+
 
 function App() {
   return (
@@ -52,6 +64,68 @@ function App() {
         <hr/>
         <br />
         <ViewProgress/>
+        <br />
+        <hr/>
+        <br />
+        <Participating/>
+        <br />
+        <hr/>
+        <br />
+        <AboutUser/>
+        <br />
+        <hr/>
+        <br />
+        <AloggedIn/>
+        <br />
+        <hr/>
+        <br />
+        <Discussionon/>
+        <br />
+        <hr/>
+        <br />
+        <DiscussiononReplay/>
+        <br />
+        <hr/>
+        <br />
+        <PostComment/>
+        <br />
+        <hr/>
+        <br />
+        <CommentSubmit/>
+        <br />
+        <hr/>
+        <br />
+        <PostTopic/>
+        <br />
+        <hr/>
+        <br />
+        <SuccessTopiPost/>
+        <br />
+        <hr/>
+        <br />
+        <Discussionon/>
+        <br />
+        <hr/>
+        <br />
+        <DiscussiononReplay2/>
+        <br />
+        <hr/>
+        <br />
+        <PostComment/>
+        <br />
+        <hr/>
+        <br />
+        <PostTopic/>
+        <br />
+        <hr/>
+        <br />
+        <CreateProfile/>
+        <br />
+        <hr/>
+        <br />
+
+        
+        
       </div>
       <FooterNavigation/>
     </div>

@@ -157,12 +157,16 @@ h2,
 .title_underline {
     font-size: 26px;
     font-weight: bold;
-    display: inline-block;
     margin-bottom: 20px;
 }
 
 .title_underline {
     border-bottom: 1px solid #000;
+    display: inline-block;
+}
+
+.toptile {
+    font-size: 32px !important;
 }
 
 .textWhiteBox {
@@ -231,7 +235,7 @@ h3,
 
 .whiteBox {
     background: #fff;
-    padding: 30px 30px;
+    padding: 30px 15px;
 }
 
 
@@ -377,6 +381,10 @@ section.introScreenContainer {
     text-align: center;
 }
 
+.bw90> a {
+    width: 95%;
+}
+
 a.blackBtn {
     font-size: 22px;
     font-weight: 600;
@@ -454,4 +462,210 @@ a.whiteBtn:hover {
 
 .view_progress p {
     margin-bottom: 10px;
+}
+
+.graphChart {
+    padding: 15px 5px;
+    background: #fff;
+    border-radius: 15px;
+}
+
+.centerBtn {
+    display: table !important;
+    margin: 10px auto 0 auto !important;
+}
+
+.whiteSQbox {
+    padding: 15px;
+    background: #fff;
+}
+
+.commentBox {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #686868;
+    background: #fff;
+}
+
+button.comment_menu {
+    display: block;
+    background: transparent;
+    border: 0;
+    outline: none;
+    box-shadow: none;
+    width: 20px;
+    padding: 0;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.postuser {
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+.discu_user {
+    flex-grow: 1;
+}
+
+.postDate {
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+.discu_user p {
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+
+.like_reply {
+    display: flex;
+    align-items: center;
+}
+
+.like_box,
+.coment_box {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    color: #000;
+    text-decoration: none;
+}
+
+.LikeIcon, .CommentIcon {
+    display: block;
+    width: 15px;
+    margin-right: 10px;
+}
+
+.coment_box {
+    margin-left: 30px;
+}
+
+a.white_button {
+    background: #fff;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 25px;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    min-height: 55px;
+    border: 1px solid #fff;
+    transition: .3s ease all;
+}
+
+span.editPencil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    background: #000;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+span.editPencil img {
+    display: block;
+    max-width: 57%;
+    filter: invert(1);
+}
+
+a.white_button:hover {
+    background: #DCE2F5;
+}
+
+.coment_replayBox {
+    margin-top: 15px;
+    padding-left: 25px;
+}
+
+.commentBox.comentReplayBox {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.comentReplay {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.commentBox.comentReplayBox:last-child {
+    margin-bottom: 0;
+}
+
+.comentpostBox h4 {
+    margin-bottom: 6px;
+}
+
+.comentpostBox textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    color: #000;
+    padding: 15px;
+    min-height: 150px;
+}
+
+.white_comentBox .commentBox {
+    background: transparent;
+    box-shadow: none;
+    padding: 10px 0;
+}
+
+.commentSuccessbox {
+    padding: 0 25px;
+}
+
+.commentSuccessbox h2 {
+    font-size: 32px;
+    line-height: 1.3;
+}
+
+a.black_button {
+    background: #494951;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 25px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    min-height: 55px;
+    border: 1px solid #494951;
+    transition: .3s ease all;
+    transition: .3s ease all;
+}
+
+a.black_button span.editPencil {
+    background: #fff;
+}
+
+a.black_button span.editPencil img {
+    filter: unset;
+}
+
+a.black_button:hover {
+    background: transparent;
+    color: #494951;
 }
