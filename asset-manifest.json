@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/bookdairy/static/css/main.7c31a9d0.css",
-    "main.js": "/bookdairy/static/js/main.9534e4c8.js",
-    "static/js/787.28cb0dcd.chunk.js": "/bookdairy/static/js/787.28cb0dcd.chunk.js",
+    "main.css": "/bookdairy/static/css/main.4cf042ca.css",
+    "main.js": "/bookdairy/static/js/main.7185fd3f.js",
+    "static/js/787.8fcdddab.chunk.js": "/bookdairy/static/js/787.8fcdddab.chunk.js",
     "static/media/profile.jpg": "/bookdairy/static/media/profile.0254c990604d03e10317.jpg",
     "static/media/introScreen.png": "/bookdairy/static/media/introScreen.a6bd3118ee54a6707284.png",
+    "static/media/graph-chart.png": "/bookdairy/static/media/graph-chart.919a55d777792384d4af.png",
     "static/media/user.png": "/bookdairy/static/media/user.557587208eb9e232f2ca.png",
     "static/media/search.png": "/bookdairy/static/media/search.31df2fd6ec41366cba48.png",
     "index.html": "/bookdairy/index.html",
+    "static/media/pencil-alt-solid.svg": "/bookdairy/static/media/pencil-alt-solid.ac1c4fa25b9c91fb80b7d04a1f4ffb9c.svg",
+    "static/media/comment-regular.svg": "/bookdairy/static/media/comment-regular.c43f3f13d6be1f51f49e9a7aed0e9989.svg",
     "static/media/check-solid.svg": "/bookdairy/static/media/check-solid.c5fdcfa474f07e3a788ee2b855020cba.svg",
-    "main.7c31a9d0.css.map": "/bookdairy/static/css/main.7c31a9d0.css.map",
-    "main.9534e4c8.js.map": "/bookdairy/static/js/main.9534e4c8.js.map",
-    "787.28cb0dcd.chunk.js.map": "/bookdairy/static/js/787.28cb0dcd.chunk.js.map"
+    "static/media/heart-solid.svg": "/bookdairy/static/media/heart-solid.3a1f62761f3745484ce2222ba973c555.svg",
+    "main.4cf042ca.css.map": "/bookdairy/static/css/main.4cf042ca.css.map",
+    "main.7185fd3f.js.map": "/bookdairy/static/js/main.7185fd3f.js.map",
+    "787.8fcdddab.chunk.js.map": "/bookdairy/static/js/787.8fcdddab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c31a9d0.css",
-    "static/js/main.9534e4c8.js"
+    "static/css/main.4cf042ca.css",
+    "static/js/main.7185fd3f.js"
   ]
 }
