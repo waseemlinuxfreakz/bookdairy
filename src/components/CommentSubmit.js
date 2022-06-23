@@ -13,8 +13,8 @@ function CommentSubmit() {
                 <br />
                 <CommentSuccess/>
                 <br />
-                <div class="text-center">
-                    <a href="#" class="nextBtn">View</a>
+                <div className="text-center">
+                    <a href="#" className="nextBtn">View</a>
                 </div>
             </div>
         </section>
