@@ -23,16 +23,6 @@ import CommentSubmit from './components/CommentSubmit';
 import PostTopic from './components/PostTopic';
 import SuccessTopiPost from './components/SucceccTopicPost';
 import CreateProfile from './components/CreateProfile';
-import CreateProfileAcc from './components/CreateProfileAcc';
-import CreateProfileAccFinal from './components/CreateeProfileAccFinal';
-import TermsOfUsePopup from './components/TermsOfUsePopup';
-import EmailVerify from './components/EmailVerify';
-import Existinguserlogin from './components/Existinguserlogin';
-import ResetPassword from './components/ResetPass';
-import VerificationPassword from './components/VerificationPass';
-import CreateNewPassword from './components/CreateNewPass';
-import PasswordResetComp from './components/PassResetComplete';
-
 
 
 function App() {
@@ -133,41 +123,9 @@ function App() {
         <br />
         <hr/>
         <br />
-        <CreateProfileAcc/>
-        <br />
-        <hr/>
-        <br />
-        <CreateProfileAccFinal/>
-        <br />
-        <hr/>
-        <br />
-        <TermsOfUsePopup/>
-        <br />
-        <hr/>
-        <br />
-        <EmailVerify/>
-        <br />
-        <hr/>
-        <br />
-        <Existinguserlogin/>
-        <br />
-        <hr/>
-        <br />
-        <ResetPassword/>
-        <br />
-        <hr/>
-        <br />
-        <VerificationPassword/>
-        <br />
-        <hr/>
-        <br />
-        <CreateNewPassword/>
-        <br />
-        <hr/>
-        <br />
-        <PasswordResetComp/>
 
-
+        
+        
       </div>
       <FooterNavigation/>
     </div>

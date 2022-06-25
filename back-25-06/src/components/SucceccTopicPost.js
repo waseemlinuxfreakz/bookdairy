@@ -2,23 +2,23 @@ import React from 'react';
 
 import ProfileBox from './ProfileBox';
 
-import CommentSuccess from './InnerComponents/commentsuccess.js';
+import TopicSuccess from './InnerComponents/topicSuccess.js';
 
-function CommentSubmit() {
+function SuccessTopiPost() {
     return ( 
         <section className='section_area'>
             <div className="container">
                 <h2 className="text-center toptile">Discussion on</h2>  
                 <ProfileBox/>
                 <br />
-                <CommentSuccess/>
+                <TopicSuccess/>
                 <br />
-                <div class="text-center">
-                    <a href="#" class="nextBtn">View</a>
+                <div className="text-center">
+                    <a href="#" className="nextBtn">View</a>
                 </div>
             </div>
         </section>
      );
 }
 
-export default CommentSubmit;
+export default SuccessTopiPost;
