@@ -51,6 +51,10 @@ h1,
     font-size: 22px;
 }
 
+.cd {
+    color: #020000;
+}
+
 p {
     margin: 0 0 0 0;
     font-size: 16px;
@@ -85,6 +89,10 @@ h4 {
 
 .boRa {
     border-radius: 20px;
+}
+
+.fwn {
+    font-weight: normal !important;
 }
 
 .topnavigateContainer {
@@ -203,7 +211,7 @@ a.nextBtn {
     transition: .3s ease all;
     background: #494951;
     padding: 10px 45px;
-    border-radius: 20px;
+    border-radius: 30px;
     box-shadow: 0 7px 9px 0px #0006;
     display: inline-block;
     border: 1px solid #494951;
@@ -789,4 +797,198 @@ button.next_button:hover {
 .emailVerify .checkAggree label {
     font-size: 22px;
     text-decoration: none;
+}
+
+.account_detailbox {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 0 11px #0000008a;
+    position: relative;
+    transition: .3s ease all;
+    color: #363636;
+    text-decoration: none;
+}
+
+.account_left_icon {
+    width: 60px;
+    text-align: center;
+    font-size: 40px;
+    flex-shrink: 0;
+}
+
+.account_froword {
+    width: 23px;
+    text-align: center;
+    font-size: 39px;
+    flex-shrink: 0;
+}
+
+.account_content h2 {
+    margin: 0 0 0px 0;
+    font-size: 20px;
+}
+
+.account_content p {
+    font-size: 14px;
+}
+
+.account_content {
+    padding: 0 5px;
+}
+
+.logutPopup {
+    text-align: center;
+    background: #fff;
+    padding: 15px 15px;
+    box-shadow: 0 0 15px #0006;
+    border-radius: 11px;
+}
+
+.logutPopup p {
+    font-size: 18px;
+}
+
+.louOutBtn {
+    padding: 10px 0 0px 0;
+}
+
+.logCancel {
+    display: inline-block;
+    font-size: 16px;
+    background: #494951;
+    color: #fff;
+    padding: 6px 25px;
+    border: 1px solid #494951;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+a.logOut {
+    display: inline-block;
+    font-size: 16px;
+    background: #DCE2F5;
+    color: #494951;
+    padding: 6px 25px;
+    border: 1px solid #DCE2F5;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.louOutBtn> a {
+    margin: 0 8px;
+}
+
+a.logCancel:hover {
+    background: #DCE2F5;
+    color: #494951;
+    border-color: #DCE2F5;
+}
+
+a.logOut:hover {
+    background: #494951;
+    color: #DCE2F5;
+    border-color: #494951;
+}
+
+.contactText {
+    font-size: 18px;
+}
+
+.contactText a {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.studies_search_area {
+    position: relative;
+    z-index: 1;
+    padding: 25px 15px;
+    background: #fff;
+    margin: 0 -15px 0 -15px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.studies_form {
+    position: relative;
+    padding: 25px 0;
+}
+
+.searchInput {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 15px #0000006e;
+}
+
+.searchInput input {
+    border: 0;
+    outline: none;
+    box-shadow: none;
+    flex-grow: 1;
+    font-size: 20px;
+    height: 35px;
+}
+
+button.searchBtn {
+    outline: none;
+    box-shadow: none;
+    background: #202020;
+    color: #fff;
+    border: 0;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.studies_form:after {
+    position: absolute;
+    z-index: -1;
+    left: -15px;
+    right: -15px;
+    content: "";
+    background: #DCE2F5;
+    top: 50px;
+    height: 1000px;
+    border-radius: 20px;
+}
+
+.studies_form.ViewAllStudies:after {
+    display: none;
+}
+
+.studies_form.ViewAllStudies {
+    padding: 0;
+}
+
+.inputCol.enterCode {
+    width: 100%;
+}
+
+.inputCol.enterCode input::placeholder {
+    color: #558626;
+}
+
+.inputCol.enterCode input {
+    text-align: center;
+    font-size: 22px;
+}
+
+.whiteBoxTitle {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
 }

@@ -32,6 +32,17 @@ import ResetPassword from './components/ResetPass';
 import VerificationPassword from './components/VerificationPass';
 import CreateNewPassword from './components/CreateNewPass';
 import PasswordResetComp from './components/PassResetComplete';
+import AccountDetails from './components/Accountdetails';
+import AccountdetailsCong from './components/AccountdetailsCong';
+import AccountLogoutBox from './components/AccountLogoutBox';
+import ContactUs from './components/ContactUs';
+import YourStudies from './components/YourStudies';
+import ViewAllStudies from './components/ViewAllStudies';
+import SearchResult from './components/SearchResult';
+import SearchStudies2 from './components/SearchStudies2';
+import Privatestudies from './components/Privatestudies';
+import PrivateCongratu from './components/PrivateCongratu';
+import AllStudies from './components/AllStudies';
 
 
 
@@ -166,7 +177,50 @@ function App() {
         <hr/>
         <br />
         <PasswordResetComp/>
-
+        <br />
+        <hr/>
+        <br />
+        <AccountDetails/>
+        <br />
+        <hr/>
+        <br />
+        <AccountdetailsCong/>
+        <br />
+        <hr/>
+        <br />
+        <AccountLogoutBox/>
+        <br />
+        <hr/>
+        <br />
+        <ContactUs/>
+        <br />
+        <hr/>
+        <br />
+        <YourStudies/>
+        <br />
+        <hr/>
+        <br />
+        <ViewAllStudies/>
+        <br />
+        <hr/>
+        <br />
+        <SearchResult/>
+        <br />
+        <hr/>
+        <br />
+        <SearchStudies2/>
+        <br />
+        <hr/>
+        <br />
+        <Privatestudies/>
+        <br />
+        <hr/>
+        <br />
+        <PrivateCongratu/>
+        <br />
+        <hr/>
+        <br />
+        <AllStudies/>
 
       </div>
       <FooterNavigation/>
