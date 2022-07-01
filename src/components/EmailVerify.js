@@ -29,7 +29,7 @@ function EmailVerify() {
                 <br />
                 <div className="formContainer emailVerify">
                     <form action="#">
-                        <div class="checkAggree">
+                        <div className="checkAggree">
                             <input type="checkbox" name="newMail" id="newMail" />
                             <label for="newMail">
                                 <span><img src={checkIcon} alt="checksolid" /></span>
@@ -37,7 +37,7 @@ function EmailVerify() {
                             </label>
                         </div>
                         <br />
-                        <div class="checkAggree">
+                        <div className="checkAggree">
                             <input type="checkbox" name="Experiment" id="Experiment" />
                             <label for="Experiment">
                                 <span><img src={checkIcon} alt="checksolid" /></span>

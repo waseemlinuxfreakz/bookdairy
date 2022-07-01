@@ -14,7 +14,7 @@ function YourStudies() {
                             <div className="searchInput">
                                 <input type="search" name='searchStudies' id='searchStudies' />
                                 <button type='button' className='searchBtn'>
-                                    <i class="fas fa-search"></i>
+                                    <i className="fas fa-search"></i>
                                 </button>
                             </div>
                         </form>

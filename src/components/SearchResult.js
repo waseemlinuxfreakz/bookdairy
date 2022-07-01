@@ -11,7 +11,7 @@ function SearchResult() {
                         <div className="searchInput">
                             <input type="search" name='searchStudies' id='searchStudies' />
                             <button type='button' className='searchBtn'>
-                                <i class="fas fa-search"></i>
+                                <i className="fas fa-search"></i>
                             </button>
                         </div>
                     </form>
@@ -24,7 +24,7 @@ function SearchResult() {
                     <ProfileBox/>
                 </div>
                 <br />
-                <h2 class="text-center"><a href="#" class="cd">View all studies</a></h2>
+                <h2 className="text-center"><a href="#" className="cd">View all studies</a></h2>
             </div>
         </section>
     );
