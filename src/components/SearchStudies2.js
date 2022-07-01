@@ -1,5 +1,6 @@
 import React from 'react';
 import ProfileBox from './ProfileBox';
+import triangle from '../img/arrow-down.png'
 
 function SearchStudies2() {
     return (
@@ -21,10 +22,13 @@ function SearchStudies2() {
                 <br />
                 <div className="searchResultBox searchResultBox2">
                     <h2 className='toptile'>All Studies</h2>
-                    <select class="selectOpt" name="" id="">
-                        <option>Latest</option>
-                        <option>Studies</option>
-                    </select>
+                    <div className="selectPink">
+                        <select class="selectOpt" name="StudiesSelect" id="StudiesSelect">
+                            <option>Latest</option>
+                            <option>Studies</option>
+                        </select>
+                        <label htmlFor=""><img src={triangle} alt="triangle" /></label>
+                    </div>
                     <br />
                     <ProfileBox/>
                     <ProfileBox/>
