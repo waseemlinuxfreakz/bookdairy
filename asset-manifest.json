@@ -1,13 +1,11 @@
 {
   "files": {
-    "main.css": "/bookdairy/static/css/main.9b841e05.css",
-    "main.js": "/bookdairy/static/js/main.f8475a2c.js",
+    "main.css": "/bookdairy/static/css/main.f8b93722.css",
+    "main.js": "/bookdairy/static/js/main.d74dc07b.js",
     "static/js/787.8fcdddab.chunk.js": "/bookdairy/static/js/787.8fcdddab.chunk.js",
     "static/media/profile.jpg": "/bookdairy/static/media/profile.0254c990604d03e10317.jpg",
-    "static/media/introScreen.png": "/bookdairy/static/media/introScreen.a6bd3118ee54a6707284.png",
+    "static/media/introScreen.png": "/bookdairy/static/media/introScreen.cd123c69452a0885f11b.png",
     "static/media/graph-chart.png": "/bookdairy/static/media/graph-chart.919a55d777792384d4af.png",
-    "static/media/user.png": "/bookdairy/static/media/user.557587208eb9e232f2ca.png",
-    "static/media/search.png": "/bookdairy/static/media/search.31df2fd6ec41366cba48.png",
     "static/media/eye-slash-regular.svg": "/bookdairy/static/media/eye-slash-regular.68b9bf50474006575af8bb911db28261.svg",
     "index.html": "/bookdairy/index.html",
     "static/media/pencil-alt-solid.svg": "/bookdairy/static/media/pencil-alt-solid.ac1c4fa25b9c91fb80b7d04a1f4ffb9c.svg",
@@ -15,12 +13,12 @@
     "static/media/eye-regular.svg": "/bookdairy/static/media/eye-regular.ef9f7591b0fbd03304311836a3f48f8a.svg",
     "static/media/check-solid.svg": "/bookdairy/static/media/check-solid.c5fdcfa474f07e3a788ee2b855020cba.svg",
     "static/media/heart-solid.svg": "/bookdairy/static/media/heart-solid.3a1f62761f3745484ce2222ba973c555.svg",
-    "main.9b841e05.css.map": "/bookdairy/static/css/main.9b841e05.css.map",
-    "main.f8475a2c.js.map": "/bookdairy/static/js/main.f8475a2c.js.map",
+    "main.f8b93722.css.map": "/bookdairy/static/css/main.f8b93722.css.map",
+    "main.d74dc07b.js.map": "/bookdairy/static/js/main.d74dc07b.js.map",
     "787.8fcdddab.chunk.js.map": "/bookdairy/static/js/787.8fcdddab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b841e05.css",
-    "static/js/main.f8475a2c.js"
+    "static/css/main.f8b93722.css",
+    "static/js/main.d74dc07b.js"
   ]
 }
