@@ -29,7 +29,7 @@ function ResetPassword() {
                 </div>
                 <br />
                 <br />
-                <div className="loginHere text-center"><a href="#">Try and login again instead</a></div>
+                <div class="loginHere text-center"><a href="#">Try and login again instead</a></div>
             </div>
         </section>
     );

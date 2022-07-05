@@ -25,7 +25,7 @@ function CreateProfileSteepFinal() {
                 <img src={EyeSlash} alt="Eye" className='inputIcon eye' />
             </div>
             <br />
-            <div className="checkAggree w90">
+            <div class="checkAggree w90">
                 <input type="checkbox" name="over18" id="over18" />
                 <label for="over18">
                     <span><img src={checkIcon} alt="checksolid" /></span>

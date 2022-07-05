@@ -3,7 +3,7 @@ import React from 'react';
 function TermsOfUsePopup() {
     return ( 
         <div className="termsOfUserContainer">
-            <div className="closePopup"><i className="fas fa-times"></i></div>
+            <div className="closePopup"><i class="fas fa-times"></i></div>
             <div className="termsOfUsePopup">
                 <h3 className="fz22"><b>Terms of use of the Experiment app</b></h3>
                 <br />

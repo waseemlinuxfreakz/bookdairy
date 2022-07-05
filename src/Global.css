@@ -88,7 +88,7 @@ h4 {
 }
 
 .boRa {
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .fwn {
@@ -359,11 +359,11 @@ section.introScreenContainer {
     color: #fff;
 }
 
-.remoinCol {margin: 5px 0;display: flex;align-items: center;}
+.remoinCol {margin: 10px 0;display: flex;align-items: center;}
 
 .remindText {
     background: #fff;
-    padding: 8px;
+    padding: 11px;
     flex-grow: 1;
     font-size: 18px;
 }
@@ -389,7 +389,7 @@ section.introScreenContainer {
     transition: .3s ease all;
     background: #494951;
     padding: 13px 25px;
-    border-radius: 20px;
+    border-radius: 15px;
     box-shadow: 0 7px 9px 0px #0006;
     display: inline-block;
     border: 1px solid #494951;
@@ -444,7 +444,7 @@ a.whiteBtn {
     transition: .3s ease all;
     background: #DCE2F5;
     padding: 10px 45px;
-    border-radius: 20px;
+    border-radius: 30px;
     box-shadow: 0 7px 9px 0px #0006;
     display: inline-block;
     border: 1px solid #DCE2F5;
@@ -478,7 +478,7 @@ a.whiteBtn:hover {
 
 .activityDate.viewProgressActive {
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .view_progress {padding: 15px 0 0 0;text-align: center;}
@@ -1031,4 +1031,30 @@ button.searchBtn {
     display: block;
     width: 25px;
     filter: invert(1);
+}
+
+.timeSelect input[type="time"]::-webkit-calendar-picker-indicator {
+    background: none;
+}
+
+.timeSelect {
+    width: 100px;
+    background: #DB007E;
+    color: #fff;
+    min-width: 110px;
+    text-align: center;
+    flex-shrink: 0;
+    margin-left: 15px;
+    padding: 10px 0px;
+}
+
+.timeSelect input {
+    background: transparent;
+    border: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+    padding: 0 10px;
+    outline: none;
+    box-shadow: none;
 }

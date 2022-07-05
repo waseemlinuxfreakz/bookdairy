@@ -6,7 +6,7 @@ function PrivateCongratu() {
     return (
         <section className="section_area">
             <div className="container">
-                <h2 className='toptile whiteBoxTitle' >Private studies <i className="far fa-eye-slash"></i></h2>
+                <h2 className='toptile whiteBoxTitle' >Private studies <i class="far fa-eye-slash"></i></h2>
                 <p className="fz20">Congratulations, you now have private access to the following study</p>
                 <br />
                 <ProfileBox/>

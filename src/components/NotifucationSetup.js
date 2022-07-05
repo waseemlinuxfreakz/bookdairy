@@ -23,28 +23,37 @@ function NotificationCenter() {
                 <div className="remindBox">
                     <div className="remoinCol">
                         <div className="remindText">
-                        Daily, Morning at
+                            Daily, Morning at
                         </div>
-                        <span>07:00</span>
+                        <div className="timeSelect">
+                            <input type="time" value="07:00" /><br />
+                        </div>
                     </div>
                     <div className="remoinCol">
                         <div className="remindText">
-                        Daily, Afternoon at
+                            Daily, Afternoon at
                         </div>
-                        <span>07:00</span>
+                        <div className="timeSelect">
+                            <input type="time" value="" /><br />
+                        </div>
                     </div>
                     <div className="remoinCol">
                         <div className="remindText">
-                        Daily, evening at
+                            Daily, evening at
                         </div>
-                        <span>07:00</span>
+                        <div className="timeSelect">
+                            <input type="time" value="" /><br />
+                        </div>
                     </div>
+                    <br />
                     <h3>REMINDER TO REPORT WEIGHT</h3>
                     <div className="remoinCol">
                         <div className="remindText">
-                        Daily at
+                            Daily at
                         </div>
-                        <span>07:00</span>
+                        <div className="timeSelect">
+                            <input type="time" value="08:00" /><br />
+                        </div>
                     </div>
                 </div>
                 <br />

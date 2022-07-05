@@ -3,6 +3,7 @@ import React from 'react';
 import ProfileBox from './ProfileBox';
 
 import checksolid from '../img/check-solid.svg';
+import triangle from '../img/arrow-down.png'
 
 function EligibilityCriteria() {
     return (
@@ -27,14 +28,17 @@ function EligibilityCriteria() {
                 <div className="selectyear p15">
                     <h2 className='mb10'>Your year of birth.</h2>
                     <form action="" id='birthYearSelect'>
-                        <select name="birthYear" id="birthYear" className='selectOpt'>
-                            <option value="2022">2022</option>
-                            <option value="2021">2021</option>
-                            <option value="2020">2020</option>
-                            <option value="2019">2019</option>
-                            <option value="2018">2018</option>
-                            <option value="2017">2017</option>
-                        </select>
+                        <div className="selectPink">
+                            <select name="birthYear" id="birthYear" className='selectOpt'>
+                                <option value="2022">2022</option>
+                                <option value="2021">2021</option>
+                                <option value="2020">2020</option>
+                                <option value="2019">2019</option>
+                                <option value="2018">2018</option>
+                                <option value="2017">2017</option>
+                            </select>
+                            <label htmlFor=""><img src={triangle} alt="triangle" /></label>
+                        </div>
                         <br />
                         <div className="checkAggree">
                             <input type="checkbox" name='overYear' id='overYear' />

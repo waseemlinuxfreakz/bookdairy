@@ -4,7 +4,7 @@ function Privatestudies() {
     return (
         <section className="section_area">
             <div className="container">
-                <h2 className='toptile whiteBoxTitle' >Private studies <i className="far fa-eye-slash"></i></h2>
+                <h2 className='toptile whiteBoxTitle' >Private studies <i class="far fa-eye-slash"></i></h2>
                 <p className="fz20">
                     Private studies can be set up by
                     practitioners and only people that

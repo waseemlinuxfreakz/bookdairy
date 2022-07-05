@@ -24,7 +24,7 @@ function ViewAllStudies() {
                             <div className="searchInput">
                                 <input type="search" name='searchStudies' id='searchStudies' />
                                 <button type='button' className='searchBtn'>
-                                    <i className="fas fa-search"></i>
+                                    <i class="fas fa-search"></i>
                                 </button>
                             </div>
                         </form>
@@ -36,7 +36,7 @@ function ViewAllStudies() {
                 <h2 className='text-center'>
                     <a href="#" className='cd'>View all studies</a>
                 </h2>
-                <div className="text-center"><a href="#" className="nextBtn">Back</a></div>
+                <div class="text-center"><a href="#" class="nextBtn">Back</a></div>
             </div>
         </section>
      );

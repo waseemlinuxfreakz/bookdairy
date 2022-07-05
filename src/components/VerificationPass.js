@@ -30,7 +30,7 @@ function VerificationPassword() {
                 <br />
                 <br />
                 <br />
-                <div className="loginHere">
+                <div class="loginHere">
                     <a href="#">No verification code, or not working?</a>
                     <br />
                     <br />
