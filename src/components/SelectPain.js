@@ -1,6 +1,7 @@
 import React from 'react';
 
 import ProfileBox from './ProfileBox';
+import Rangesliderss from './Rangesliders';
 
 
 function SelectPain() {
@@ -28,7 +29,7 @@ function SelectPain() {
                 <div className="whiteBox boRa selectRangeBox">
                     <p>Select right mark then click to submit.</p>
                     <div className="selectRange">
-                        <input type="range" min="0" max="20" />
+                        <Rangesliderss/>
                     </div>
                 </div>
                 <br />
