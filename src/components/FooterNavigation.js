@@ -10,15 +10,15 @@ function FooterNavigation() {
             <div className="container">
                 <div className="footeNavigateCont">
                     <div className="homeMenu">
-                        <a href="#"><i class="fas fa-home"></i></a>
+                        <a href="#"><i className="fas fa-home"></i></a>
                     </div>
                     <div className="search_icon">
                         <button className="searchTriger">
-                        <i class="fas fa-search"></i>
+                        <i className="fas fa-search"></i>
                         </button>
                     </div>
                     <div className="UserIcon">
-                        <a href="#"><i class="far fa-user-circle"></i></a>
+                        <a href="#"><i className="far fa-user-circle"></i></a>
                     </div>
                 </div>
             </div>

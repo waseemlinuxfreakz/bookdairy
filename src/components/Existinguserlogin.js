@@ -30,7 +30,7 @@ function Existinguserlogin() {
                 </div>
                 <br />
                 <br />
-                <div class="loginHere text-center"><a href="#">Forgotten password?</a></div>
+                <div className="loginHere text-center"><a href="#">Forgotten password?</a></div>
             </div>
         </section>
      );
