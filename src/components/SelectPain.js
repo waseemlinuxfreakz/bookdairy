@@ -2,7 +2,7 @@ import React from 'react';
 
 import ProfileBox from './ProfileBox';
 
-
+import Slider from 'react-rangeslider';
 
 function SelectPain() {
     return (
@@ -29,7 +29,21 @@ function SelectPain() {
                 <div className="whiteBox boRa selectRangeBox">
                     <p>Select right mark then click to submit.</p>
                     <div className="selectRange">
-                        
+                    <Slider
+  min={Number}
+  max={Number}
+  step={Number}
+  value={Number}
+  orientation={String}
+  reverse={Boolean}
+  tooltip={Boolean}
+  labels={Object}
+  handleLabel={String}
+  format={Function}
+  onChangeStart={Function}
+  onChange={Function}
+  onChangeComplete={Function}
+/>
                     </div>
                 </div>
                 <br />
