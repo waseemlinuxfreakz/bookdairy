@@ -1,9 +1,8 @@
 import * as React from 'react';
 import { Range } from 'react-range';
 
-class SuperSimple extends React.Component {
-  state = { values: [50] };
-  render() {
+function SelectPainrange() {
+render() {
     return (
       <Range
         step={0.1}
@@ -39,3 +38,4 @@ class SuperSimple extends React.Component {
     );
   }
 }
+export default SelectPainrange;
