@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Range } from 'react-range';
 
 function SelectPainrange() {
-render() {
+
     return (
       <Range
         step={0.1}
@@ -36,6 +36,6 @@ render() {
         )}
       />
     );
-  }
+  
 }
 export default SelectPainrange;
